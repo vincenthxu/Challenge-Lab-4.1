@@ -6,7 +6,7 @@
         {
             if (args.Length == 0)
             {
-                int[] numbers = [1, 2, 3, 4, 5, 13, 33, 731, 888];
+                int[] numbers = [1, 2, 3, 4, 5, 13, 33, 731, 888, 7201432, 87501];
                 foreach(int num in numbers)
                     Console.WriteLine($"{num} : {NumberContains3(num)}");
             }
